@@ -135,6 +135,7 @@ func main() {
 	}
 }
 
+//展示版本号
 func showVersion() {
 	fmt.Printf("Docker version %s, build %s\n", dockerversion.VERSION, dockerversion.GITCOMMIT)
 }
