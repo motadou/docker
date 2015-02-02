@@ -29,6 +29,7 @@ func main() {
 		return
 	}
 
+	//分析命令行参数
 	flag.Parse()
 	// FIXME: validate daemon flags here
 
